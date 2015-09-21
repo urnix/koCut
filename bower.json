@@ -1,6 +1,6 @@
 {
   "name": "umTruncate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Artem I <2urnix@gmail.com>"
   ],
@@ -15,5 +15,6 @@
   ],
   "dependencies": {
     "angular": "~1.4.6"
-  }
+  },
+  "homepage": "https://github.com/urnix/umTruncate"
 }
