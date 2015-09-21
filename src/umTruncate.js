@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('umTruncate', []).
-        filter('um-truncate', function () {
+        filter('umTruncate', function () {
             return function (value, max, wordwise, tail) {
                 max = parseInt(max, 10);
                 if (!value || !max || value.length <= max) {
