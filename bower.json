@@ -1,0 +1,16 @@
+{
+  "name": "koCut",
+  "version": "0.0.1",
+  "authors": [
+    "Artem I <2urnix@gmail.com>"
+  ],
+  "main": "src/koCut.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
