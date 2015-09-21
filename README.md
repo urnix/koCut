@@ -1,1 +1,1 @@
-# koCut
+# umTruncate

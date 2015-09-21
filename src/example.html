@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ex">
+<head>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="umTruncate.js"></script>
+    <script src="example.js"></script>
+
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<input type="text" ng-model="textModel"/>
+
+<p>{{textModel | um-truncate:10}}</p>
+
+</body>
+</html>

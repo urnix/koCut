@@ -1,8 +1,8 @@
 (function () {
     'use strict';
 
-    angular.module('koCut', []).
-        filter('cut', function () {
+    angular.module('umTruncate', []).
+        filter('um-truncate', function () {
             return function (value, max, wordwise, tail) {
                 max = parseInt(max, 10);
                 if (!value || !max || value.length <= max) {
